@@ -5,7 +5,8 @@
   "main": "polylint.js",
   "bin": "bin/polylint.js",
   "scripts": {
-    "test": "bower install && node_modules/.bin/jshint polylint.js bin lib test && node_modules/.bin/mocha test/test.js"
+    "test": "bower install && node_modules/.bin/jshint polylint.js bin lib test && node_modules/.bin/mocha test/test.js",
+    "elements": "bower install && bin/polylint.js --input elements.html"
   },
   "repository": {
     "type": "git",
